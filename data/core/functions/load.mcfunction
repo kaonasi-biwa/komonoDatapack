@@ -74,6 +74,7 @@ execute unless score $keydoor run_function matches ..10 run scoreboard players s
 execute unless score $pocket_portal run_function matches ..10 run scoreboard players set $pocket_portal run_function 1
 execute unless score $chair run_function matches ..10 run scoreboard players set $chair run_function 1
 execute unless score $mask run_function matches ..10 run scoreboard players set $mask run_function 1
+execute unless score $weapons run_function matches ..10 run scoreboard players set $weapons run_function 1
 
 
 execute as @e[tag=energy] unless score @s key_number matches 1.. run scoreboard players set @s key_number 1

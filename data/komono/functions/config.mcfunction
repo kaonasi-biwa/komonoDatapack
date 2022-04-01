@@ -20,4 +20,7 @@ execute if score $chair run_function matches 0 run tellraw @s [{"text":"Chair"},
 
 execute if score $mask run_function matches 1 run tellraw @s [{"text":"Mask"},{"text":"[ON]","color":"blue","clickEvent":{"action":"run_command","value":"/function komono:config_run/off/mask"}}]
 execute if score $mask run_function matches 0 run tellraw @s [{"text":"Mask"},{"text":"[OFF]","color":"red","clickEvent":{"action":"run_command","value":"/function komono:config_run/on/mask"}}]
+
+execute if score $weapons run_function matches 1 run tellraw @s [{"text":"Weapons"},{"text":"[ON]","color":"blue","clickEvent":{"action":"run_command","value":"/function komono:config_run/off/weapons"}}]
+execute if score $weapons run_function matches 0 run tellraw @s [{"text":"Weapons"},{"text":"[OFF]","color":"red","clickEvent":{"action":"run_command","value":"/function komono:config_run/on/weapons"}}]
 tellraw @s {"text":"----------------------------------"}
