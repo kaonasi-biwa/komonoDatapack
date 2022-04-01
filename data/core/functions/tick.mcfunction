@@ -19,3 +19,4 @@ execute if score $chair run_function matches 1 run function chair:main
 execute if score $mask run_function matches 1 run function mask:main
 
 
+scoreboard players set @a mask 0

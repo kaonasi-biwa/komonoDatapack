@@ -34,11 +34,10 @@ execute if entity @e[tag=energy,scores={energy=1..}] as @e[tag=chest] at @s run 
 execute unless entity @e[tag=energy,scores={energy=1..}] run tag @e[tag=chest] add down
 
 # 工業系詳細検出機
-execute as @a[scores={check=1..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{komono_id:"checker"}}}] at @s run function industry:check
+execute as @a[scores={mask=1..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{komono_id:"checker"}}}] at @s run function industry:check
 
 # 電子時計
-execute as @a[scores={check=1..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{komono_id:"clock"}}}] at @s run function industry:clock
-scoreboard players set @a check 0
+execute if entity @e[tag=energy,scores={energy=1..}] as @a[scores={mask=1..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{komono_id:"clock"}}}] at @s run function industry:clock
 
 # 鉱石抽出機
 execute if entity @e[tag=energy,scores={energy=50..}] as @e[tag=cobbleore] at @s if block ~ ~-1 ~ barrel{Items:[{Slot:13b,id:"minecraft:cobblestone"}]} run function industry:cobbleore
