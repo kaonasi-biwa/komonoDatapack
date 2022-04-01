@@ -33,7 +33,6 @@ scoreboard objectives add time dummy
 scoreboard objectives add day dummy
 scoreboard objectives add jetpack custom:sneak_time
 
-scoreboard objectives add check minecraft.used:carrot_on_a_stick
 scoreboard objectives add clock_time dummy
 scoreboard objectives add clock_time2 dummy
 scoreboard objectives add clock_time3 dummy
