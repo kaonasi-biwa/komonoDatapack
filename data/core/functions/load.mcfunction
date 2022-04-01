@@ -103,7 +103,7 @@ execute as @e[tag=energy] unless score @s key_number matches 1.. run scoreboard 
 #team add zombie_hoglin
 #team modify zombie_hoglin friendlyFire false
 
-
+execute in dimension:komono run forceload add 0 0
 
 scoreboard objectives add recipe dummy
 
