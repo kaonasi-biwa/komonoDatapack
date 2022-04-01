@@ -1,0 +1,1 @@
+execute if score @e[tag=energy,limit=1] version matches 0 run function core:version_check

@@ -1,0 +1,50 @@
+[
+    {
+      "function": "minecraft:set_lore",
+      "entity": "this",
+      "lore": [
+        [
+          {
+            "text": "ガラス瓶:",
+            "italic": false,
+            "color": "white"
+          },
+          {
+            "score": {
+              "name": "@s",
+              "objective": "rcraft_bottle"
+            },
+            "italic": false,
+            "color": "white"
+          },
+          {
+            "text": "個",
+            "italic": false,
+            "color": "white"
+          }
+        ],
+        [
+          {
+            "text": "バケツ:",
+            "italic": false,
+            "color": "white"
+          },
+          {
+            "score": {
+              "name": "@s",
+              "objective": "rcraft_bucket"
+            },
+            "italic": false,
+            "color": "white"
+          },
+          {
+            "text": "個",
+            "italic": false,
+            "color": "white"
+          }
+        ]
+      ],
+      "replace": true
+    }
+  ]
+  

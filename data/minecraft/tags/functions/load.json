@@ -1,0 +1,7 @@
+{
+    "values": [
+      "core:load",
+      "mapping_birthday:load",
+      "oh_my_dat:sys/load"
+    ]
+  }

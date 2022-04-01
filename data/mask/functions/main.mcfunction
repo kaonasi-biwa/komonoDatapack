@@ -1,0 +1,1 @@
+execute as @a[scores={mask=1..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{komono_id:"mask"}}}] at @s run function mask:mask

@@ -1,0 +1,1 @@
+execute unless entity @e[tag=pump_pumpl,distance=..0.3] if block ~ ~ ~ lava run summon marker ~ ~ ~ {Tags:["pump_pumpl"]}

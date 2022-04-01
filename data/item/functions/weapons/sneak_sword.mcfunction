@@ -1,0 +1,4 @@
+summon minecraft:item ~ ~ ~ {Item:{id:"minecraft:wooden_sword",Count:1b,tag:{display:{Name:'{"translate":"kaonasi.komono.weapons.sneak_sword.name","italic": false}',Lore:['{"translate":"kaonasi.komono.weapons.sneak_sword.id","color": "gray","italic": false}','{"text": ""}','{"translate":"kaonasi.komono.weapons.sneak_sword.lore.1","color": "white","italic": false}','{"translate":"kaonasi.komono.weapons.sneak_sword.lore.2","color": "white","italic": false}']},AttributeModifiers:[{AttributeName: "minecraft:generic.attack_damage", Name: "generic.attackDamage", Amount: 1, Operation: 0, UUID: [I; -1, -4109346, -1, -2399136], Slot: "mainhand"}],HideFlags:4,Unbreakable:1b,komono_id:"sneak_sword"}}}
+
+#<data>
+#weapons:main

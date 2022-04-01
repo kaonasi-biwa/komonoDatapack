@@ -1,0 +1,14 @@
+{
+    "values": [
+      "minecraft:bedrock",
+      "minecraft:command_block",
+      "minecraft:chain_command_block",
+      "minecraft:repeating_command_block",
+      "minecraft:water",
+      "minecraft:lava",
+      "minecraft:jigsaw",
+      "minecraft:barrier",
+      "minecraft:structure_block",
+      "minecraft:bedrock"
+    ]
+  }

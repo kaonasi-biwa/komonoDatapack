@@ -1,0 +1,16 @@
+execute if entity @s[tag=kaonasi_craft] run function core:destroy/craft/kaonasi_crafting_table
+execute if entity @s[tag=keys] run function core:destroy/keydoor/keys_block
+execute if entity @s[tag=re_craft] run function core:destroy/reverse_craft/reverse_crafting_table
+execute if entity @s[tag=re_furnace] run function core:destroy/reverse_craft/reverse_furnace
+execute if entity @s[tag=re_smithing] run function core:destroy/reverse_craft/reverse_smithing_table
+execute if entity @s[tag=re_stonecutter] run function core:destroy/reverse_craft/reverse_stonecutter
+execute if entity @s[tag=re_cartography_table] run function core:destroy/reverse_craft/reverse_cartography_table
+execute if entity @s[tag=pump] run function core:destroy/industry/pomp
+execute if entity @s[tag=pumpl] run function core:destroy/industry/pomp_lava
+execute if entity @s[tag=cobbleore] run function core:destroy/industry/cobbleore
+execute if entity @s[tag=chest] run function core:destroy/industry/everyone_chest
+execute if entity @s[tag=daylight] run function core:destroy/industry/daylight
+execute if entity @s[tag=8daylight] run function core:destroy/industry/daylight_x8
+execute if entity @s[tag=mining] run function core:destroy/industry/miner
+execute if entity @s[tag=ruby] run function core:destroy/industry/ruby_block
+execute if entity @s[tag=p_block] run function core:destroy/industry/piglin_head

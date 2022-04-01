@@ -1,0 +1,39 @@
+{
+    "criteria": {
+        "opening": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "alternative",
+                        "terms": [
+                            {
+                                "condition": "entity_scores",
+                                "entity": "this",
+                                "scores":{
+                                    "MapBirthCraft": {
+                                        "min": 1,
+                                        "max": 2147483647
+                                    }
+                                }
+                            },
+                            {
+                                "condition": "entity_scores",
+                                "entity": "this",
+                                "scores":{
+                                    "MapBirthCarto": {
+                                        "min": 1,
+                                        "max": 2147483647
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "mapping_birthday:open"
+    }
+}

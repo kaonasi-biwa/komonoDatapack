@@ -1,0 +1,65 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "translate":"kaonasi.komono.key_door.key.id",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      [
+        {
+          "text": "No:",
+          "color": "white",
+          "italic": false
+        },
+        {
+          "score": {
+            "name": "@e[tag=energy,limit=1]",
+            "objective": "key_number"
+          },
+          "color": "white",
+          "italic": false
+        }
+      ],
+      [
+        {
+          "text": "",
+          "color": "white",
+          "italic": false
+        }
+      ],
+      [
+        {
+          "translate":"kaonasi.komono.key_door.key.lore.1",
+          "color": "white",
+          "italic": false
+        }
+      ],[
+        {
+          "translate":"kaonasi.komono.key_door.key.lore.2",
+          "color": "white",
+          "italic": false
+        }
+      ]
+    ],
+    "replace": true
+  },
+  {
+    "function": "minecraft:copy_nbt",
+    "source": {
+      "type": "minecraft:storage",
+      "source": "key:number"
+    },
+    "ops": [
+      {
+        "source": "Number",
+        "target": "Number",
+        "op": "replace"
+      }
+    ]
+  }
+]

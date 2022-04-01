@@ -1,0 +1,33 @@
+[
+    {
+      "condition": "minecraft:alternative",
+      "terms": [
+        {
+          "condition": "minecraft:location_check",
+          "offsetX": 0,
+          "offsetY": 0,
+          "offsetZ": 0,
+          "predicate": {
+            "block": {
+              "tag": "industry:pomp_water"
+            }
+          }
+        },
+        {
+          "condition": "minecraft:location_check",
+          "offsetX": 0,
+          "offsetY": 0,
+          "offsetZ": 0,
+          "predicate": {
+            "block": {
+              "tag": "industry:pomp_block",
+              "state": {
+                "waterlogged": true
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+  

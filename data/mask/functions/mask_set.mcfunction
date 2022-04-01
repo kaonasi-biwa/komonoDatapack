@@ -1,0 +1,4 @@
+item replace entity @p weapon.mainhand from entity @p armor.head
+item replace entity @p armor.head with minecraft:carrot_on_a_stick{kaonasi:"block",display:{Lore:['{"translate":"kaonasi.komono.mask.mask.id","color": "gray","italic": false}','{"text": ""}','{"translate":"kaonasi.komono.mask.mask.lore.1","color": "white","italic": false}','{"translate":"kaonasi.komono.mask.mask.lore.2","color": "white","italic": false}'],Name:'{"translate":"kaonasi.komono.mask.mask.name","italic": false}'},komono_id:"mask",HideFlags:6,Unbreakable:1b,CustomModelData:389,AttributeModifiers:[{AttributeName: "generic.armor", Name: "generic.armor", Amount: 2, Operation: 0, UUID: [I; 0, 8463441, -1, -4552561], Slot: "head"}]} 1
+
+playsound item.armor.equip_leather master @a[distance=..7]

@@ -1,0 +1,29 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "bonus_rolls": 2,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:barrier",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{temp:\"komono.nether_portal\",CustomModelData:100000}"
+                        }
+                    ]
+                },
+                {
+                    "type": "empty",
+                    "weight": 20
+                }
+            ]
+        }
+    ]
+}
