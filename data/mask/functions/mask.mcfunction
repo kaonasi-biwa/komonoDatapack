@@ -1,2 +1,2 @@
-scoreboard players set @p mask 0
+scoreboard players set @s mask 0
 function mask:mask_set
