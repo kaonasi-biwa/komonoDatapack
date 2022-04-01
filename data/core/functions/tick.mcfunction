@@ -17,6 +17,7 @@ execute if score $keydoor run_function matches 1 run function key_door:main
 execute if score $pocket_portal run_function matches 1 run function nether_portal:main
 execute if score $chair run_function matches 1 run function chair:main
 execute if score $mask run_function matches 1 run function mask:main
+execute if score $weapons run_function matches 1 run function weapons:main
 
 
 scoreboard players set @a mask 0
