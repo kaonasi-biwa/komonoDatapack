@@ -1,4 +1,4 @@
-execute if entity @s[tag=kaonasi_craft] run function core:gui/kaonasi_crafting_table
+execute if entity @s[tag=kaonasi_crafting_table] run function core:gui/kaonasi_crafting_table
 execute if entity @s[tag=pump] run function core:gui/nomal
 execute if entity @s[tag=pumpl] run function core:gui/nomal
 execute if entity @s[tag=cobbleore] run function core:gui/nomal

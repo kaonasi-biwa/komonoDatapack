@@ -1,5 +1,5 @@
 # craft
-execute as @e[tag=crafting_temp] at @s run function core:set/craft/kaonasi_crafting_table
+execute as @e[tag=ko_cr_kct_itmf] at @s run function core:set/craft/kaonasi_crafting_table
 
 # industry
 execute as @e[tag=pump_temp] at @s run function core:set/industry/pump
@@ -24,3 +24,5 @@ execute as @e[tag=cartography_table_temp] at @s run function core:set/reverse_cr
 
 # 
 tag @e[type=item_frame] add untemp
+
+

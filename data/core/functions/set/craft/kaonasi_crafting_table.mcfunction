@@ -1,6 +1,4 @@
 setblock ~ ~ ~ minecraft:barrel{CustomName:'{"translate":"kaonasi.komono.craft.kaonasi_crafting_table.name"}'} replace
-tp @s ~ ~1 ~ 0 -90
-
-execute if entity @s[tag=!gui] run tag @s add gui
-
-tag @e remove crafting_temp
+execute align xyz positioned ~0.5 ~ ~0.5 run summon minecraft:marker ~ ~ ~ {Tags:["kaonasi_crafting_table","gui"]}
+execute align xyz positioned ~0.5 ~ ~0.5 run summon minecraft:armor_stand ~ ~ ~ {Tags:["block_texture"],Marker:1b,Invisible:1b,Invulnerable:1b,NoGravity:1b,NoBasePlate:1b,Pose:{Head:[0,0,0]},ArmorItems:[{},{},{},{id:"minecraft:item_frame",Count:1b,tag:{CustomModelData:552}}]}
+kill @s

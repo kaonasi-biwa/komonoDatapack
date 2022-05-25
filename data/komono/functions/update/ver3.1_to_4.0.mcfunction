@@ -1,0 +1,1 @@
+execute as @e[tag=kaonasi_craft] at @s positioned ~ ~-1 ~ run function core:set/craft/kaonasi_crafting_table

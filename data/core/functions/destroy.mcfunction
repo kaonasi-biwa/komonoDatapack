@@ -1,4 +1,4 @@
-execute if entity @s[tag=kaonasi_craft] run function core:destroy/craft/kaonasi_crafting_table
+execute if entity @s[tag=kaonasi_crafting_table] run function core:destroy/craft/kaonasi_crafting_table
 execute if entity @s[tag=keys] run function core:destroy/keydoor/keys_block
 execute if entity @s[tag=re_craft] run function core:destroy/reverse_craft/reverse_crafting_table
 execute if entity @s[tag=re_furnace] run function core:destroy/reverse_craft/reverse_furnace
