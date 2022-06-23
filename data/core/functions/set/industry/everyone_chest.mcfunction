@@ -1,5 +1,5 @@
 setblock ~ ~ ~ minecraft:barrel{CustomName:'{"translate":"kaonasi.komono.industry.everyone_chest.name"}'} replace
-tp @s ~ ~1 ~ 0 -90
-function core:set/direction
-execute if entity @s[tag=!gui] run tag @s add gui
-tag @s remove chest_temp
+execute align xyz positioned ~0.5 ~ ~0.5 run summon minecraft:marker ~ ~ ~ {Tags:["industry__everyone_chest","gui"]}
+execute align xyz positioned ~0.5 ~ ~0.5 run summon minecraft:armor_stand ~ ~ ~ {Tags:["block_texture"],Marker:1b,Invisible:1b,Invulnerable:1b,NoGravity:1b,NoBasePlate:1b,Pose:{Head:[0,0,0]},ArmorItems:[{},{},{},{id:"minecraft:item_frame",Count:1b,tag:{CustomModelData:61165}}]}
+execute align xyz positioned ~0.5 ~ ~0.5 as @e[tag=block_texture,limit=1,sort=nearest] at @s run function core:set/direction
+kill @s

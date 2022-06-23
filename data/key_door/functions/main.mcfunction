@@ -15,4 +15,4 @@ execute as @e[tag=key,scores={key_number=1..}] at @s if score @a[distance=..6,li
 
 
 
-execute as @e[tag=keys] at @s if block ~ ~-1 ~ barrel{Items:[{Slot:11b,id:"minecraft:stick",tag:{komono_id:"key"}},{Slot:15b,id:"minecraft:tripwire_hook"}]} run function key_door:keys_block
+execute as @e[tag=key_door__keys_block] at @s if block ~ ~ ~ barrel{Items:[{Slot:11b,id:"minecraft:stick",tag:{komono_id:"key"}},{Slot:15b,id:"minecraft:tripwire_hook"}]} run function key_door:keys_block

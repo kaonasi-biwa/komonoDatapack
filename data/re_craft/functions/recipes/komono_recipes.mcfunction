@@ -24,8 +24,8 @@ execute if entity @s[tag=!overcraft] if block ~ ~ ~ barrel{Items:[{Slot:13b,tag:
 execute if entity @s[tag=!overcraft] if block ~ ~ ~ barrel{Items:[{Slot:13b,tag:{komono_id:"jetpack"}}]} if score @s rcraft_count matches 1.. run function re_craft:komonos/industry/jetpack
 execute if entity @s[tag=!overcraft] if block ~ ~ ~ barrel{Items:[{Slot:13b,tag:{komono_id:"lightning_rod"}}]} if score @s rcraft_count matches 1.. run function re_craft:komonos/industry/lightning_rod
 execute if entity @s[tag=!overcraft] if block ~ ~ ~ barrel{Items:[{Slot:13b,tag:{komono_id:"miner"}}]} if score @s rcraft_count matches 1.. run function re_craft:komonos/industry/miner
-execute if entity @s[tag=!overcraft] if block ~ ~ ~ barrel{Items:[{Slot:13b,tag:{komono_id:"pomp_lava"}}]} if score @s rcraft_count matches 1.. run function re_craft:komonos/industry/pomp_lava
-execute if entity @s[tag=!overcraft] if block ~ ~ ~ barrel{Items:[{Slot:13b,tag:{komono_id:"pomp"}}]} if score @s rcraft_count matches 1.. run function re_craft:komonos/industry/pomp
+execute if entity @s[tag=!overcraft] if block ~ ~ ~ barrel{Items:[{Slot:13b,tag:{komono_id:"pump_lava"}}]} if score @s rcraft_count matches 1.. run function re_craft:komonos/industry/pump_lava
+execute if entity @s[tag=!overcraft] if block ~ ~ ~ barrel{Items:[{Slot:13b,tag:{komono_id:"pump"}}]} if score @s rcraft_count matches 1.. run function re_craft:komonos/industry/pump
 execute if entity @s[tag=!overcraft] if block ~ ~ ~ barrel{Items:[{Slot:13b,tag:{komono_id:"ruby_block"}}]} if score @s rcraft_count matches 1.. run function re_craft:komonos/industry/ruby_block
 execute if entity @s[tag=!overcraft] if block ~ ~ ~ barrel{Items:[{Slot:13b,tag:{komono_id:"ruby"}}]} if score @s rcraft_count matches 1.. run function re_craft:komonos/industry/ruby
 execute if entity @s[tag=!overcraft] if block ~ ~ ~ barrel{Items:[{Slot:13b,tag:{komono_id:"stone_gear"}}]} if score @s rcraft_count matches 1.. run function re_craft:komonos/industry/stone_gear
@@ -55,3 +55,7 @@ execute if entity @s[tag=!overcraft] if block ~ ~ ~ barrel{Items:[{Slot:13b,tag:
 execute if entity @s[tag=!overcraft] if block ~ ~ ~ barrel{Items:[{Slot:13b,tag:{komono_id:"sneak_sword"}}]} if score @s rcraft_count matches 1.. run function re_craft:komonos/weapons/sneak_sword
 execute if entity @s[tag=!overcraft] if block ~ ~ ~ barrel{Items:[{Slot:13b,tag:{komono_id:"super_multi_bow"}}]} if score @s rcraft_count matches 1.. run function re_craft:komonos/weapons/super_multi_bow
 execute if entity @s[tag=!overcraft] if block ~ ~ ~ barrel{Items:[{Slot:13b,tag:{komono_id:"tnt_bow"}}]} if score @s rcraft_count matches 1.. run function re_craft:komonos/weapons/tnt_bow
+
+#old
+execute if entity @s[tag=!overcraft] if block ~ ~ ~ barrel{Items:[{Slot:13b,tag:{komono_id:"pomp_lava"}}]} if score @s rcraft_count matches 1.. run function re_craft:komonos/industry/pump_lava
+execute if entity @s[tag=!overcraft] if block ~ ~ ~ barrel{Items:[{Slot:13b,tag:{komono_id:"pomp"}}]} if score @s rcraft_count matches 1.. run function re_craft:komonos/industry/pump

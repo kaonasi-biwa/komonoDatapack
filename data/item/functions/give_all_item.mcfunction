@@ -48,4 +48,4 @@ function item:industry/daylight_x8
 function item:industry/jetpack
 function item:industry/miner
 function item:industry/lightning_rod
-function item:industry/pomp
+function item:industry/pump

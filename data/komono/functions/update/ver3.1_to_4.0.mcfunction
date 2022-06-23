@@ -1,1 +1,16 @@
 execute as @e[tag=kaonasi_craft] at @s positioned ~ ~-1 ~ run function core:set/craft/kaonasi_crafting_table
+execute as @e[tag=cobbleore] at @s positioned ~ ~-1 ~ run function core:set/industry/cobbleore
+execute as @e[tag=8daylight] at @s positioned ~ ~-1 ~ run function core:set/industry/daylight_x8
+execute as @e[tag=daylight] at @s positioned ~ ~-1 ~ run function core:set/industry/daylight
+execute as @e[tag=chest] at @s positioned ~ ~-1 ~ run function core:set/industry/everyone_chest
+execute as @e[tag=mining] at @s positioned ~ ~-1 ~ run function core:set/industry/miner
+execute as @e[tag=p_block] at @s positioned ~ ~-1 ~ run function core:set/industry/piglin_head
+execute as @e[tag=pumpl] at @s positioned ~ ~-1 ~ run function core:set/industry/pump_lava
+execute as @e[tag=pump] at @s positioned ~ ~-1 ~ run function core:set/industry/pump
+execute as @e[tag=ruby] at @s positioned ~ ~-1 ~ run function core:set/industry/ruby_block
+execute as @e[tag=keys] at @s positioned ~ ~-1 ~ run function core:set/key_door/keys_block
+execute as @e[tag=re_cartography_table] at @s positioned ~ ~-1 ~ run function core:set/reverse_craft/reverse_cartography_table
+execute as @e[tag=re_craft] at @s positioned ~ ~-1 ~ run function core:set/reverse_craft/reverse_crafting_table
+execute as @e[tag=re_furnace] at @s positioned ~ ~-1 ~ run function core:set/reverse_craft/reverse_furnace
+execute as @e[tag=re_smithing] at @s positioned ~ ~-1 ~ run function core:set/reverse_craft/reverse_smithing_table
+execute as @e[tag=re_stonecutter] at @s positioned ~ ~-1 ~ run function core:set/reverse_craft/reverse_stonecutter
