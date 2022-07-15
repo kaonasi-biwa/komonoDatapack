@@ -1,0 +1,7 @@
+[
+    {
+      "function": "minecraft:set_nbt",
+      "tag": "{AttributeModifiers:[{AttributeName: \"minecraft:generic.attack_damage\", Name: \"generic.attackDamage\", Amount: 1, Operation: 0, UUID: [I; -1, -4109346, -1, -2399136], Slot: \"mainhand\"}]}"
+    }
+  ]
+  

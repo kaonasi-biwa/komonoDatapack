@@ -7,7 +7,8 @@ execute as @a[scores={multiShot=1..},nbt={SelectedItem:{id:"minecraft:bow",Count
 
 execute as @e[type=item,nbt={Item:{Count:1b,tag:{komono_id:"sneak_sword"}}}] at @s run function weapons:up
 execute unless entity @e[nbt={Item:{Count:1b,tag:{komono_id:"sneak_sword"}}},distance=..3] run scoreboard players set @a[scores={sneak_sword=1..},nbt=!{SelectedItem:{tag:{komono_id:"sneak_sword"}}}] sneak_sword 0
-item replace entity @a[scores={sword_replace=1..},nbt={SelectedItem: {tag: {komono_id:"sneak_sword"}}}] weapon.mainhand with wooden_sword{display:{Name:'{"translate":"kaonasi.komono.weapons.sneak_sword.name","italic": false}',Lore:['{"translate":"kaonasi.komono.weapons.sneak_sword.id","color": "gray","italic": false}','{"text": ""}','{"translate":"kaonasi.komono.weapons.sneak_sword.lore.1","color": "white","italic": false}','{"translate":"kaonasi.komono.weapons.sneak_sword.lore.2","color": "white","italic": false}']},AttributeModifiers:[{AttributeName: "minecraft:generic.attack_damage", Name: "generic.attackDamage", Amount: 1, Operation: 0, UUID: [I; -1, -4109346, -1, -2399136], Slot: "mainhand"}],HideFlags:4,Unbreakable:1b,komono_id:"sneak_sword"}
+item modify entity @a[scores={sword_replace=1..},nbt={SelectedItem: {tag: {komono_id:"sneak_sword"}}}] weapon.mainhand weapons:reset_sword
+item modify entity @a[scores={sword_replace=1..},nbt={Inventory: [{tag: {komono_id:"sneak_sword"},Slot:-106b}]}] weapon.mainhand weapons:reset_sword
 scoreboard players set @a sword_replace 0
 
 
